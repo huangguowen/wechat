@@ -1,8 +1,15 @@
 {
     "name": "hgw/wechat",
     "description": "企业微信SDK",
-    "type": "library",
+    "type": "composer",
     "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "huangguowen",
+            "email": "1194729753@qq.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "WeWork\\": "src/"
